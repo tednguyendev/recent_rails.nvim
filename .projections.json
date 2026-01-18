@@ -1,0 +1,18 @@
+{
+  "lua/recent_rails/*.lua": {
+    "alternate": "tests/{}_spec.lua",
+    "type": "source"
+  },
+  "lua/recent_rails/pickers/*.lua": {
+    "alternate": "tests/pickers/{}_spec.lua",
+    "type": "source"
+  },
+  "tests/*_spec.lua": {
+    "alternate": "lua/recent_rails/{}.lua",
+    "type": "test"
+  },
+  "tests/pickers/*_spec.lua": {
+    "alternate": "lua/recent_rails/pickers/{}.lua",
+    "type": "test"
+  }
+}
